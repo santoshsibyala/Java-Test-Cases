@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[The reversed string is :]]>
+    </line>
+    <line>
+      <![CDATA[The reversed string is :null]]>
+    </line>
+    <line>
+      <![CDATA[The reversed string is :amanaplanacanalpanama]]>
+    </line>
+    <line>
+      <![CDATA[The reversed string is :ama!naplanacanalpan!ama]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73" started-at="2015-09-25T22:40:04Z" finished-at="2015-09-25T22:40:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73" started-at="2015-09-25T22:40:04Z" finished-at="2015-09-25T22:40:04Z">
+      <class name="samplePackage.TestCasesPalindrome">
+        <test-method status="PASS" signature="reverseStringEmptyStringTestCase1()[pri:0, instance:samplePackage.TestCasesPalindrome@1c53fd30]" name="reverseStringEmptyStringTestCase1" duration-ms="33" started-at="2015-09-25T15:40:04Z" finished-at="2015-09-25T15:40:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The reversed string is :]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reverseStringEmptyStringTestCase1 -->
+        <test-method status="PASS" signature="reverseStringNullTestCase1()[pri:0, instance:samplePackage.TestCasesPalindrome@1c53fd30]" name="reverseStringNullTestCase1" duration-ms="1" started-at="2015-09-25T15:40:04Z" finished-at="2015-09-25T15:40:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The reversed string is :null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reverseStringNullTestCase1 -->
+        <test-method status="PASS" signature="reverseStringPositiveTestCase1()[pri:0, instance:samplePackage.TestCasesPalindrome@1c53fd30]" name="reverseStringPositiveTestCase1" duration-ms="1" started-at="2015-09-25T15:40:04Z" finished-at="2015-09-25T15:40:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The reversed string is :amanaplanacanalpanama]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reverseStringPositiveTestCase1 -->
+        <test-method status="PASS" signature="reverseStringSpecialCharacterTestCase1()[pri:0, instance:samplePackage.TestCasesPalindrome@1c53fd30]" name="reverseStringSpecialCharacterTestCase1" duration-ms="1" started-at="2015-09-25T15:40:04Z" finished-at="2015-09-25T15:40:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The reversed string is :ama!naplanacanalpan!ama]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reverseStringSpecialCharacterTestCase1 -->
+      </class> <!-- samplePackage.TestCasesPalindrome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
